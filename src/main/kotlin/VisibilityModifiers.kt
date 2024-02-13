@@ -2,8 +2,9 @@
 
 fun main() {
     val myCircle1 = Circle(5.0)
-    myCircle1.changeName("Peter")
+    myCircle1.changeName("Peter") //error since fun changeName is private
     println("The new  name of the circle is ${myCircle1.name}")
+    //var name is protected hence only accessible by the parent and child class(es)
 
     val myRect = Rectangle(3.0,8.0)
     println("Rectangle area is ${myRect.area()}")
