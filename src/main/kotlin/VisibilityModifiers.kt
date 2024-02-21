@@ -14,4 +14,5 @@ fun main() {
 //private: only accessible in that class. Applies to variables too
 //classes and objects are public by default
 //protected: accessible within the class and all child classes only
+//internal: The internal modifier restricts the visibility of a member to the same module. A module is a set of Kotlin files compiled together.
 //constructors can also be private or protected e.g. class Circle private/protected constructor(val...) {}
