@@ -12,6 +12,6 @@ fun main() {
     println("Is Rectangle square? ${myRect.isSquare()}")
 }
 //private: only accessible in that class. Applies to variables too
-//public by default
+//classes and objects are public by default
 //protected: accessible within the class and all child classes only
 //constructors can also be private or protected e.g. class Circle private/protected constructor(val...) {}
